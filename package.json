@@ -10,16 +10,6 @@
     "node": "5.10.1",
     "npm": "3.8.3"
   },
-  "browserify": {
-    "transform": [
-      [
-        "babelify",
-        {
-          "presets": ["es2015", "react", "stage-0"]
-        }
-      ]
-    ]
-  },
   "dependencies": {
     "babelify": "^7.2.0",
     "browserify": "~10.2.4",
