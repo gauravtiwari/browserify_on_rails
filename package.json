@@ -1,0 +1,25 @@
+{
+  "name": "browserify_on_rails",
+  "version": "1.0.0",
+  "description": "Browserify and React with NPM modules on Rails",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gauravtiwari/browserify_on_rails.git"
+  },
+  "keywords": [
+    "browserify",
+    "react",
+    "rails",
+    "npm"
+  ],
+  "author": "Gaurav Tiwari <gaurav@gauravtiwari.co.uk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gauravtiwari/browserify_on_rails/issues"
+  },
+  "homepage": "https://github.com/gauravtiwari/browserify_on_rails#readme"
+}
