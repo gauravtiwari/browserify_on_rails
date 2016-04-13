@@ -18,6 +18,6 @@ Bundler.require(*Rails.groups)
 
 module BrowserifyOnRails
   class Application < Rails::Application
-    config.browserify_rails.commandline_options = "-t babelify --extension=\".jsx\""
+    config.browserify_rails.commandline_options = "-t babelify --extension=\"es6.js\""
   end
 end

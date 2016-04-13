@@ -1,7 +1,7 @@
 import React from 'react';
 import $ from 'jquery';
 
-export default class IndexComponent extends React.Component {
+class IndexComponent extends React.Component {
 	constructor(props) {
 		super(props);
 		this._sendPing = this._sendPing.bind(this);
@@ -41,3 +41,5 @@ export default class IndexComponent extends React.Component {
 		return <h2>Echo: {this.state.message}</h2>;
 	}
 }
+
+module.exports = IndexComponent;

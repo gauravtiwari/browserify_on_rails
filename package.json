@@ -10,10 +10,24 @@
     "node": "5.10.1",
     "npm": "3.8.3"
   },
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": ["es2015", "react", "stage-0"]
+        }
+      ]
+    ]
+  },
   "dependencies": {
     "babelify": "^7.2.0",
     "browserify": "~10.2.4",
-    "browserify-incremental": "^3.0.1"
+    "browserify-incremental": "^3.0.1",
+    "jquery": "^2.2.3",
+    "jquery-ujs": "^1.2.1",
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1"
   },
   "repository": {
     "type": "git",

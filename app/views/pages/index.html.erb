@@ -1,7 +1,3 @@
-<div data-react-component data-react-component-name="IndexComponent" data-react-component-props="<%= {message: "Hello from first component!"}.to_json %>"></div>
-
-<div data-react-component data-react-component-name="IndexSecondComponent" data-react-component-props="<%= {message: "Hello from second component!"}.to_json %>"></div>
-
-<%= content_tag(:div, nil, data: {react_component: true, react_component_name: "IndexSecondComponent", react_component_props: {message: "Hello from second component for third time!"}.to_json}) %>
-
+<%= react_component('app.IndexComponent', {message: "Hello from Index component"}.to_json) %>
+<%= react_component('app.IndexSecondComponent', {message: "Hello from Index Second component"}.to_json) %>
 <%= link_to('Show page', page_show_path) %>
