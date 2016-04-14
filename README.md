@@ -17,6 +17,7 @@ components.js: components manifest
 git clone git@github.com:gauravtiwari/browserify_on_rails.git
 cd browserify_on_rails
 bundle install
+npm install
 chmod 777 start
 ./start
 # Or Alternatively
