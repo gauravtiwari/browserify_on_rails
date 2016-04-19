@@ -10,11 +10,13 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require jquery
-//= require jquery_ujs
 //= require turbolinks
-//= require react
-//= require react-server
 //= require react_ujs
 //= require components
-//= require_tree .
+//= require cable
+
+// Setup React in global scope
+var React = window.React = global.React = require('react');
+var ReactDOM = window.ReactDOM = global.ReactDOM = require('react-dom');
+window.$ = window.jQuery = require('jquery')
+require('jquery-ujs')
